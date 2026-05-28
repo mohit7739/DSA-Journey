@@ -1,0 +1,7 @@
+s = "hello"
+reverse = ""
+length = len(s)
+
+for i in range(length - 1,-1,-1):
+    reverse = reverse + s[i]
+print(reverse)
